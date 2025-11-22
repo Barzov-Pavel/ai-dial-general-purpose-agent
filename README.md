@@ -28,7 +28,7 @@
    - Add to `models`:
      - Key is `gpt-4o` with such configurations:
          - displayName = `GPT 4o`
-         - endpoint = `http://host.docker.internal:5030/openai/deployments/general-purpose-agent/chat/completions`
+         - endpoint = `http://adapter-dial:5000/openai/deployments/gpt-4o/chat/completion`
          - iconUrl = `http://localhost:3001/gpt4.svg`
          - type = `chat`
          - upstreams = array with dict of:
